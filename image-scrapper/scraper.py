@@ -2,7 +2,7 @@ import os
 import time
 import requests
 from selenium import webdriver
-#from selenium.webdriver.common.by import By
+from selenium.webdriver.common.by import By
 
 
 def fetch_image_urls(query: str, max_links_to_fetch: int, wd: webdriver, sleep_between_interactions: int = 1):
